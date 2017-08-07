@@ -1,22 +1,24 @@
 {
-  "name": "webpack",
-  "version": "1.0.0",
-  "description": "`npm install -g webpack`\r >全局安装",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/makQi/webpack.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/makQi/webpack/issues"
-  },
-  "homepage": "https://github.com/makQi/webpack#readme",
-  "devDependencies": {
-    "webpack": "^3.4.1"
-  }
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "`npm install -g webpack`\r >全局安装",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/makQi/webpack.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/makQi/webpack/issues"
+    },
+    "homepage": "https://github.com/makQi/webpack#readme",
+    "devDependencies": {
+        "webpack": "^3.4.1",
+        "html-webpack-plugin": "*",
+        "extract-text-webpack-plugin": "*"
+    }
 }
